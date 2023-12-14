@@ -64,7 +64,7 @@ import {
     updateOrderFailed,
 } from './userSlice';
 
-const proxy = 'http://localhost:8000/v1';
+const proxy = 'https://laptopstore-be.onrender.com/v1';
 
 //auth
 export const loginUser = async (user, dispatch, navigate) => {

@@ -4,7 +4,7 @@ import jwt_decode from 'jwt-decode';
 //refresh token
 const refreshToken = async () => {
     try {
-        const res = await axios.post('http://localhost:8000/v1/auth/refresh', {
+        const res = await axios.post('https://laptopstore-be.onrender.com/v1/auth/refresh', {
             withCredentials: true, //bắt buộc xác thực
         });
         return res.data;
